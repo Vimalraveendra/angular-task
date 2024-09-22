@@ -1,27 +1,38 @@
-# MaterialDemo
+# General info
+This project is built with Angular,Material Angular,Rx-Angular/state & Typescript inorder to render the element data details on the table,update the element data  & also filter the element data based on the input text data.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
 
-## Development server
+# Setup
+To run this project, install it locally using npm.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1.Clone this repo.
 
-## Code scaffolding
+2.cd angular-task.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3.Run npm install.
 
-## Build
+4.Run npm start.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Application Setup:
 
-## Running unit tests
+1.created ng-new angular boiler plate.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2.created reusable components,containers .
 
-## Running end-to-end tests
+3.fetch element data  from the mock  while the app initializes.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4.created a responsive page showing  the element data details on the table.    
 
-## Further help
+5.Created edit-element component to update the element data.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+6.Rendered screen with table details (including Position,Name,Weight, Symbol & Action).
+
+7.Added types with Typescript as well.
+
+## Solution built with:
+* Angular components,Angular Material, Angular state & Typescript.
+* ES2015 & ES2016.
+* Code linter and formatter.
+* SCSS,FlexBox.
+* libraries used Angular,Angular Material & Rx-Angular/State.
+

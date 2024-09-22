@@ -1,0 +1,36 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-toolbar{
+    background-color: darkblue;
+    color:white;
+  }
+  
+  .table-container{
+    padding-top:20px;
+    margin:0 auto;
+    overflow-x:auto;
+    max-width: 1248px;
+    mat-form-field{
+      width:100%
+    }
+  }
+
+  @media screen and (max-width:1090px) {
+    .table-container{
+      width: 90vw;
+      
+    }
+    #table td, #table th{
+      padding:10px;
+      font-size:14px;
+    }
+    
+  }
+
+  @media screen and (max-width: 860px) {
+    .table-container {
+      width: 98vw;
+    }
+  
+  }

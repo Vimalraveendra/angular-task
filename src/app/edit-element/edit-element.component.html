@@ -1,0 +1,31 @@
+<div mat-dialog-title>
+    <h2>ElementForm</h2>
+</div>
+<form [formGroup]="elementForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content>
+        <div class="row">
+            <mat-form-field appearance="outline" class="content">
+                <mat-label>Position:</mat-label>
+                <input matInput placeholder="Position" formControlName="position">
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="content">
+                <mat-label>Name:</mat-label>
+                <input matInput placeholder="Name" formControlName="name">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Weight:</mat-label>
+                <input matInput type="weight" placeholder="weight" formControlName="weight">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Symbol:</mat-label>
+                <input matInput type="symbol" placeholder="symbol" formControlName="symbol">
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions>
+        <button mat-raised-button (click)="closeElementEditForm()">Cancel</button>
+        <button mat-flat-button [disabled]="!elementForm.valid" type="submit">Update</button>
+    </div>
+</form>
